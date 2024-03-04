@@ -22,39 +22,25 @@ We have four source subfolders in the OriginalData directory and four destinatio
 
 The paths to the four source subfolders (OriginalData directory) and the paths to their homologous destination subfolders (CannyData directory) are given below.
 
-Source1 = os.path.join('/content/drive/MyDrive/Our_Data/Thesis/LargeData/OriginalData/train/
-Parasitized')
-
+Source1 = os.path.join('/content/drive/MyDrive/Our_Data/Thesis/LargeData/OriginalData/train/Parasitized')
 print(len(os.listdir(source1)))
-
 destestination1 = os.path.join('/content/drive/MyDrive/Our_Data/Thesis/LargeData/CannyData/train/
 Parasitized')
 print(len(os.listdir(destestination1)))
 
 source2 = os.path.join('/content/drive/MyDrive/Our_Data/Thesis/LargeData/OriginalData/train/ Uninfected')
-
 print(len(os.listdir(source2)))
-
 destestination2 = os.path.join('/content/drive/MyDrive/Our_Data/Thesis/LargeData/CannyData/train/ Uninfected')
-
 print(len(os.listdir(destestination2))
 
-source3 = os.path.join('/content/drive/MyDrive/Our_Data/Thesis/LargeData/OriginalData/test/
-Parasitized')
-
+source3 = os.path.join('/content/drive/MyDrive/Our_Data/Thesis/LargeData/OriginalData/test/Parasitized')
 print(len(os.listdir(source3)))
-
-destestination3 = os.path.join('/content/drive/MyDrive/Our_Data/Thesis/LargeData/CannyData/test/
-Parasitized')
-
+destestination3 = os.path.join('/content/drive/MyDrive/Our_Data/Thesis/LargeData/CannyData/test/Parasitized')
 print(len(os.listdir(destestination3)))
 
 source4 = os.path.join('/content/drive/MyDrive/Our_Data/Thesis/LargeData/OriginalData/test/ Uninfected')
-
 print(len(os.listdir(source4)))
-
 destestination4 = os.path.join('/content/drive/MyDrive/Our_Data/Thesis/LargeData/CannyData/test/ Uninfected')
-
 print(len(os.listdir(destestination4))
 
 Then we created a loop that takes the images one by one from a subfolder of the source directory (OriginalData), preprocesses them with the Canny filter and saves them in the homologous subfolder of the destination directory (CannyData).
