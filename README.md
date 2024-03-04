@@ -1,3 +1,4 @@
+# Classification of images infected and uninfected by malaria parasites
 
 #### The original data used in our study contains 33,007 images.
 
